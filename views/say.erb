@@ -1,0 +1,7 @@
+    <% @number = params[:number].to_i %>
+    <% @phrase = params[:phrase] %>
+    <% i = 0 %>
+    <% while i < @number do %>
+      <p><%= "#{@phrase}" %></p>
+      <% i += 1 %>
+    <% end %>
